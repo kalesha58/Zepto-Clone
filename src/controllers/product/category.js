@@ -1,6 +1,6 @@
-import messages from "../../constants/messages";
-import Category from "../../models/category";
-import { tryCatchWrapper } from "../../utils/tryCatchWrapper";
+import messages from "../../constants/messages.js";
+import Category from "../../models/category.js";
+import { tryCatchWrapper } from "../../utils/tryCatchWrapper.js";
 
 export  const getAllCategories = tryCatchWrapper(async (req, reply) => {
     const categories = await Category.find();

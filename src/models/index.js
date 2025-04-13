@@ -13,6 +13,5 @@ export {
     DeliveryPartner,
     Customer,
     Admin,
-    Counter,
     Category
 }

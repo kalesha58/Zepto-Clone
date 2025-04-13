@@ -18,6 +18,10 @@ const Messages = {
     CATEGORY_FETCH_SUCCESS: "Category fetched successfully",
     PRODUCTS_FETCH_SUCCESS: "Products fetched successfully",
     PRODUCT_FETCH_SUCCESS: "Product fetched successfully",
+    USER_NOT_FOUND: "User not found",
+    USER_FETCH_SUCCESS: "User fetched successfully",
+    ORDER_NOT_FOUND: "Order not found",
+    ORDER_STATUS_UPDATED: "Order status updated successfully",
 };
 
 
@@ -31,4 +35,4 @@ const StatusCodes = {
     INTERNAL_SERVER_ERROR: 500,
 };
 
-export default {Messages, StatusCodes};
+ export default {Messages, StatusCodes};
